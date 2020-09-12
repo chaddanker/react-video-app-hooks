@@ -1,3 +1,7 @@
+## Web TV 
+
+An interface to seamlessly search and view youtube videos.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
