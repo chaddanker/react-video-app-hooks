@@ -1,0 +1,19 @@
+.search-bar-container {
+    position: fixed;
+    top: 1em;
+    width: 90%;
+    text-align: center !important;
+    .search-bar {
+        background-color: rgba(255, 255, 255, 0.204) !important;
+        color: white !important;
+        font-size: 1.5em !important;
+        margin: auto;
+    }
+    .search-bar:focus {
+        box-shadow: 0 0 0 5px rgba(255,255,255,0.8) !important;
+        border: none !important;
+    }
+    .search-container {
+        border: none !important;
+    }
+}

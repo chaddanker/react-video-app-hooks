@@ -1,0 +1,27 @@
+.swiper-container {
+    position: fixed !important;
+    bottom: -20px !important;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+
+    .swiper-slide {
+        transition: 0.854s;
+        img {
+            transition: 0.854s;
+        }
+    }
+}
+
+@media screen and ( min-width: 400px )
+{
+    .swiper-slide:hover {
+        width: 250px !important;
+        height: 250px;
+    }
+    
+    .swiper-slide:hover img {
+        box-shadow: 5px 5px 20px #7a7a7ac1 !important;
+    }
+}
+

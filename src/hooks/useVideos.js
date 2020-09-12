@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+
+import config from '../config/keys';
 import youtube from '../api/youtube';
 
 const useVideo = (defaultTerm) => {
@@ -14,8 +16,8 @@ const useVideo = (defaultTerm) => {
 				q: term,
 				part: "snippet",
 				type: "video",
-				maxResults: 5,
-				key: 'AIzaSyC9M9iKgTgxAbnMC8LAvdYBYJWbo5okGkw'
+				maxResults: 10,
+				key: config.googleApi
 			 }
 		});
 		setVideos(response.data.items);
